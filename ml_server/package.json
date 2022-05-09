@@ -1,0 +1,21 @@
+{
+  "name": "jacy-health-model",
+  "version": "1.0.0",
+  "description": "backend code for communicating with health model deployed to IBM Cloud Pak and the react frontend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
